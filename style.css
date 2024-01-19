@@ -40,16 +40,12 @@ nav {
 
 #search {
   padding: 5px;
-}
-
-hr {
-  border-top: 2px solid gray;
   margin: 20px;
+  font-family: sans-serif;
 }
 
 #h21 {
   font-family: sans-serif;
-  padding-bottom: 0px;
 }
 #jobList {
   display: flex;
@@ -71,14 +67,14 @@ ul {
   transition: 0.3s;
   border-radius: 5px;
   padding: 10px;
-  margin: 10px;
+  margin: 20px;
 }
 
 .job:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-#applyb {
+.applyb {
   background-color: #555555;
   font-size: 16px;
   padding: 5px 24px;
@@ -93,7 +89,7 @@ ul {
   cursor: pointer;
 }
 
-#applyb:hover {
+.applyb:hover {
   opacity: 1;
 }
 

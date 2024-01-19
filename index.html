@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cool job board</title>
+    <title>Home</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,35 +11,41 @@
         <h1 id="main-h1">Cool Job Board</h1>
     </header>
     <nav>
-        <a href="" class="links">Home</a>
-        <a href="" class="links">Create a Job</a>
-        <a href="" class="links">About</a>
+        <a href="index.html" class="links">Home</a>
+        <a href="Create.html" class="links">Create a Job</a>
+        <a href="about.html" class="links">About</a>
     </nav>
     <div id="content">
         <h2 class="h2">Find Your Dream Job</h2>
-        <select name="search" id="search">
-            <option value="all">All</option>
-            <option value="front-end">Front End</option>
-            <option value="back-end">Back End</option>
-            <option value="fullstack">Fullstack</option>
-        </select>
-        <hr>
-        <h2 id="h21" >Find Your Dream Job</h2>
+            <select name="search" id="search">
+                <option value="all">All</option>
+                <option value="front-end">Front End</option>
+                <option value="back-end">Back End</option>
+                <option value="fullstack">Fullstack</option>
+            </select>
+        <h2 id="h21" >Latest Job Listing</h2>
         <section id="jobList">
             <ul>
                 <li class="job">
-                    <h3>Web Developer</h3>
+                    <h3>Front-End Developer</h3>
                     <p>Company: ABC Tech</p>
                     <p>Location: India</p>
-                    <p>Description: Good Web Developer</p>
-                    <a href="#">Apply Now</a>
+                    <p>Description: Good Front-End Developer</p>
+                    <a href="apply.html" class="applyb">Apply Now</a>
                 </li>
                 <li class="job">
-                    <h3>Graphic Designer</h3>
+                    <h3>Back-End Developer</h3>
                     <p>Company: XYZ Design</p>
-                    <p>Location: India </p>
-                    <p>Description:Good Graphic Designer</p>
-                    <a href="#">Apply Now</a>
+                    <p>Location: London </p>
+                    <p>Description:Good Back-End Developer</p>
+                    <a href="apply.html" class="applyb">Apply Now</a>
+                </li>
+                <li class="job">
+                    <h3>Fullstack Developer</h3>
+                    <p>Company: EFG Design</p>
+                    <p>Location: London </p>
+                    <p>Description:Good Fullstack Developer</p>
+                    <a href="apply.html" class="applyb">Apply Now</a>
                 </li>
             </ul>
         </section>
